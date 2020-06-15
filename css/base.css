@@ -3,10 +3,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
-h1, h2, h3 {
-  font-family: 'Raleway', sans-serif;
+body, .contact {
+  font-family: 'Lato', sans-serif;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
 }
