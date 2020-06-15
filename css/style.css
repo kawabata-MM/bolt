@@ -70,26 +70,25 @@ a {
   width: 100%;
   text-align: center;
   display: flex;
-
 }
 
 .what-inner-wrapper {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .what-inner img {
   display: block;
   margin-right: 110px;
   margin-left: 110px;
-  }
+}
 
 .what-textbox {
   color: #fff;
   width: 60%;
   display: block;
   line-height: 1.5;
-  }
+}
 
 .what-textbox h3 {
   font-size: 24px;
