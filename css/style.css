@@ -1,1 +1,229 @@
-@charset "UTF-8";header {  width: 100%;  position: fixed;  background: #fff;  padding-top: 15px;  padding-bottom: 15px;  z-index: 10;}a {  cursor: pointer;}.cf::after {  content: "";  display: block;  clear: both;}.wrapper {  width: 1100px;  margin: 0 auto;}.logo-icon {  float: left;}.fa-bolt {  font-size: 30px;  }.contact {  font-size: 12px;  padding: 12px 14px;  background: #74cfae;  color: #fff;  width: 50px;  text-align: center;  float: right;  transition: 0.3s;}.contact:hover{  color: #333; }.title {  padding: 250px;  background: #f2f2f2;}.title h1 {  font-size: 90px;  font-weight: 700;  margin-bottom: 20px;  text-align: center;  color: #74cfae;}.title h2 {  font-size: 30px;  color: #c0c0c0;  text-align: center;}.what-inner {  background-color: #74cfae;  padding-top: 50px;  width: 100%;  text-align: center;}.what-inner-wrapper {  display: flex;  justify-content: space-between;}.what-inner img {  display: block;  margin-right: 20px;}.what-textbox {  color: #fff;  text-align: center;  width: 70%;  display: block;}.what-textbox h3 {  font-size: 24px;  padding-bottom: 35px;}.what-textbox p {  font-size: 20px;}.work-inner {  padding-top: 60px;  padding-bottom: 70px;}.work-inner h3 {  font-size: 24px;  text-align: center;}.work-inner-img {  padding-top: 40px;  display: flex;  flex-wrap: wrap;}.work-inner-img img {  margin-bottom: 80px;  margin-right: 100px;  transition: 0.3s;  opacity: 0.7;}.work-inner-img img:hover{  opacity: 1;}.work-inner-img img:nth-of-type(3n) {  margin-right: 0;}.email-wrapper {  margin: 0 auto;  display: flex;  justify-content: center;}.email-text {  margin-right: 90px;  width: 540px;  text-align: center;}.email-botton p {  background: #74cfae;  font-size: 12px;  padding: 14px 20px;  color: #fff;  width: 60px;  transition: 0.3s;}.email-botton p:hover{  color: #333;}.skills-inner {  background-color: #333;  padding-top: 70px;  padding-bottom: 100px;  display: flex;  text-align: center;}.skills-inner figure {  text-align: center;  display: inline-block;  margin-right: 180px;  transition: 0.3s;  opacity: 0.7;}.skills-inner figure:hover{  opacity: 1;}.skills-inner figure:nth-of-type(4) {  margin-right: 0px;  }.skills-inner h3 {  text-align: center;  font-size: 24px;  margin-bottom: 30px;}.skills-inner h3, .skills-inner p {  color: #fff;}.skills-inner p {  font-size: 16px;  margin-top: 20px;}.bg_nav {  background: #f2f2f2;  padding-top: 200px;  padding-bottom: 200px;}.bg_nav .wrapper {  display: flex;  justify-content: center;  text-align: center;}.hover-nav {  width: 185px;  height: 90px;  transition: 0.3s;}.hover-nav div {  color: #74cfae;  font-size: 60px;  line-height: 90px;}.hover-nav:hover {  background: #fff;}footer {  background-color: #74cfae;  padding-top: 20px;  padding-bottom: 25px;}.copyright {  color: #fff;  text-align: right}
+@charset "UTF-8";
+header {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 10;
+}
+
+a {
+  cursor: pointer;
+}
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.logo-icon {
+  float: left;
+}
+
+.fa-bolt {
+  font-size: 40px;
+}
+
+.contact {
+  font-size: 12px;
+  padding: 14px 12px;
+  background: #74cfae;
+  color: #fff;
+  width: 43px;
+  float: right;
+  transition: 0.3s;
+}
+
+.contact:hover {
+  color: #333;
+}
+
+.title {
+  padding: 250px;
+  background: #f2f2f2;
+}
+
+.title h1 {
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #74cfae;
+}
+
+.title h2 {
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.what-inner {
+  background-color: #74cfae;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+
+}
+
+.what-inner-wrapper {
+  display: flex;
+  justify-content:space-between;
+}
+
+.what-inner img {
+  display: block;
+  margin-right: 110px;
+  margin-left: 110px;
+  }
+
+.what-textbox {
+  color: #fff;
+  width: 60%;
+  display: block;
+  line-height: 1.5;
+  }
+
+.what-textbox h3 {
+  font-size: 24px;
+  padding-bottom: 35px;
+}
+
+.what-textbox p {
+  font-size: 20px;
+}
+
+.work-inner {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.work-inner h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.work-inner-img {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-inner-img img {
+  margin-bottom: 80px;
+  margin-right: 100px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.work-inner-img img:hover {
+  opacity: 1;
+}
+
+.work-inner-img img:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.email-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.email-text {
+  margin-right: 90px;
+  width: 460px;
+  text-align: center;
+}
+
+.email-botton p {
+  background: #74cfae;
+  font-size: 12px;
+  padding: 14px 20px;
+  color: #fff;
+  width: 60px;
+  transition: 0.3s;
+}
+
+.email-botton p:hover {
+  color: #333;
+}
+
+.skills-inner {
+  background-color: #333;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.skills-inner figure {
+  text-align: center;
+  display: inline-block;
+  margin-right: 180px;
+}
+
+.skills-inner figure:nth-of-type(4) {
+  margin-right: 0px;
+}
+
+.skills-inner h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.skills-inner h3, .skills-inner p {
+  color: #fff;
+}
+
+.skills-inner p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.bg_nav {
+  background: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.bg_nav .wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.hover-nav {
+  width: 185px;
+  height: 90px;
+  transition: 0.3s;
+}
+
+.hover-nav div {
+  color: #74cfae;
+  font-size: 40px;
+  line-height: 90px;
+}
+
+.hover-nav:hover {
+  background: #fff;
+}
+
+footer {
+  background-color: #74cfae;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.copyright {
+  color: #fff;
+  text-align: right
+}
