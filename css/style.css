@@ -55,11 +55,12 @@ img {
 }
 
 main {
-  padding-top: 250px;
+  padding-top: 70px;
   background: #f2f2f2;
 }
 
 .title {
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 
