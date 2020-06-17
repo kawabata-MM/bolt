@@ -66,13 +66,13 @@ main {
 .bolt {
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 20px;
   text-align: center;
   color: #74cfae;
 }
 
 .free-bootstrap {
   font-size: 30px;
+  margin-top: 20px;
   color: #c0c0c0;
   text-align: center;
 }
@@ -87,13 +87,11 @@ main {
 
 .what-inner-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.what-inner img {
+.what-img {
   display: block;
-  margin-right: 110px;
-  margin-left: 110px;
   vertical-align: bottom;
 }
 
@@ -102,15 +100,16 @@ main {
   width: 60%;
   display: block;
   line-height: 1.5;
+  margin-left: 90px;
 }
 
 .what-we-can-do {
   font-size: 24px;
-  margin-bottom: 35px;
 }
 
-.what-textbox p {
+.what-textbox-text {
   font-size: 20px;
+  margin-top: 35px;
 }
 
 .work-inner {
@@ -125,12 +124,11 @@ main {
 
 .work-inner-img {
   margin-top: 40px;
-  margin-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.work-inner-img a {
+.work-inner-img-anchor {
   border-width: 0px;
   border-style: none;
   background: transparent;
@@ -140,20 +138,20 @@ main {
   opacity: 0.7;
 }
 
-.work-inner-img a:nth-last-child(-n+3) {
+.work-inner-img-anchor:nth-last-child(-n+3) {
   margin-bottom: 0;
 }
 
-.work-inner-img a:hover {
+.work-inner-img-anchor:hover {
   opacity: 1;
 }
 
-.work-inner-img a:nth-of-type(3n) {
+.work-inner-img-anchor:nth-of-type(3n) {
   margin-right: 0;
 }
 
 .email-wrapper {
-  margin: 0 auto;
+  margin-top: 90px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -167,7 +165,7 @@ main {
   font-weight: 100;
 }
 
-.email-botton p {
+.email-me {
   background: #74cfae;
   font-size: 12px;
   padding: 14px 20px;
@@ -176,7 +174,7 @@ main {
   transition: 0.3s;
 }
 
-.email-botton p:hover {
+.email-me:hover {
   color: #333;
 }
 
@@ -188,14 +186,14 @@ main {
   text-align: center;
 }
 
-.skills-inner figure {
+.skills-inner-figure {
   text-align: center;
   display: inline-block;
-  margin-right: 180px;
+  margin-left: 180px;
 }
 
-.skills-inner figure:nth-of-type(4) {
-  margin-right: 0px;
+.skills-inner-figure:first-of-type {
+  margin-left: 0px;
 }
 
 .our-skills {
@@ -204,22 +202,22 @@ main {
   margin-bottom: 30px;
 }
 
-.our-skills, .skills-inner figcaption {
+.our-skills, .skills-inner-figcaption {
   color: #fff;
 }
 
-.skills-inner figcaption {
+.skills-inner-figcaption {
   font-size: 16px;
   margin-top: 20px;
 }
 
-.bg_nav {
+.bg-nav {
   background: #f2f2f2;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.bg_nav .wrapper {
+.bg-nav .wrapper {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -231,7 +229,7 @@ main {
   transition: 0.3s;
 }
 
-.hover-nav div {
+.hover-nav .fab, .hover-nav .fas {
   color: #74cfae;
   font-size: 40px;
   line-height: 90px;
