@@ -332,7 +332,6 @@ footer {
     padding-top: 160px;
     padding-bottom: 130px;
   }
-
   .bolt {
     font-size: 80px;
     font-weight: 700;
@@ -340,8 +339,6 @@ footer {
     color: #74cfae;
     margin-bottom: 20px;
   }
-
-
   .what-inner {
     background-color: #74cfae;
     padding-top: 50px;
@@ -387,6 +384,9 @@ footer {
     display: block;
     margin-left: 0px;
     margin-bottom: 88px;
+  }
+  .skills-inner-figure:last-child {
+    margin-bottom: 0px;
   }
   .email-wrapper {
     margin-top: 90px;
