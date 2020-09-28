@@ -141,20 +141,12 @@ main {
   opacity: 1;
 }
 
-.work-inner-img-anchor:nth-child(-n+3) {
-  margin-top: 0;
-}
-
-.work-inner-img-anchor:nth-child(1) {
+.work-inner-img-anchor:first-child{
   margin-left: 0;
 }
 
-.work-inner-img-anchor:nth-child(4n) {
+.work-inner-img-anchor:nth-of-type(3n+1) {
   margin-left: 0;
-}
-
-.work-inner-img-anchor:nth-of-type(3n) {
-  margin-right: 0;
 }
 
 .email-wrapper {
@@ -260,14 +252,30 @@ footer {
 @media screen and (min-width:768px) and (max-width:1199px) {
   .wrapper {
     width: 97%;
+    text-align: center;
   }
   .what-inner {
     padding-bottom: 25px;
     width: 100%;
   }
   .work-inner-img {
-    display: block;
-    text-align: center;
+    display: inline-block;
+  }
+  .work-inner-img-anchor {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+  .work-inner-img-anchor:hover {
+    opacity: 1;
+  }
+  .work-inner-img-anchor:nth-child(3n) {
+    margin-bottom: 80px;
+  }
+  .work-inner-img-anchor:last-child {
+    margin-bottom: 0px;
   }
   .what-inner-wrapper {
     display: block;
@@ -276,14 +284,6 @@ footer {
     width: 100%;
     margin-left: 0px;
     margin-top: 20px;
-  }
-  .work-inner-img-anchor {
-    margin-top: 0px;
-    margin-left: 0px;
-    display: block;
-  }
-  .work-inner-img-anchor:nth-child(4n) {
-    margin-top: 80px;
   }
   .email-wrapper {
     display: block;
@@ -349,6 +349,7 @@ footer {
     width: 97%;
     box-sizing: border-box;
     padding: 15px;
+    text-align: center;
   }
   .title {
     padding-top: 160px;
@@ -374,24 +375,25 @@ footer {
     margin-top: 20px;
   }
   .work-inner-img {
-    display: block;
-    text-align: center;
+    display: inline-block;
   }
-  .work-inner-img-anchor img {
+  .work-inner-img-anchor {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
     transition: 0.3s;
     opacity: 0.7;
   }
-  .work-inner-img-anchor img:hover {
+  .work-inner-img-anchor:hover {
     opacity: 1;
   }
-  .work-inner-img-anchor {
-    margin-top: 0px;
-    margin-left: 0px;
-    display: block;
+  .work-inner-img-anchor:nth-child(3n) {
+    margin-bottom: 80px;
   }
-  .work-inner-img-anchor:nth-child(4n) {
-    margin-top: 80px;
+  .work-inner-img-anchor:last-child {
+    margin-bottom: 0px;
   }
+
   .email-wrapper {
     display: block;
   }
