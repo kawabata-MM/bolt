@@ -257,18 +257,24 @@ footer {
 @media screen and (min-width:768px) and (max-width:1199px) {
   .wrapper {
     width: 768px;
-    margin: 0 auto;
   }
   .what-inner {
-    background-color: #74cfae;
-    padding-top: 50px;
     padding-bottom: 25px;
     width: 100%;
   }
   .work-inner-img {
-    margin-top: 40px;
     display: block;
     text-align: center;
+  }
+  .what-img {
+    margin-bottom: 20px;
+  }
+  .what-inner-wrapper {
+    display: block;
+  }
+  .what-textbox {
+    width: 100%;
+    margin-left: 0px;
   }
   .work-inner-img-anchor {
     margin-top: 0px;
@@ -278,39 +284,12 @@ footer {
   .work-inner-img-anchor:nth-child(3) {
     margin-bottom: 80px;
   }
-  .what-inner-wrapper {
-    display: block;
-  }
-  .what-img {
-    margin-bottom: 20px;
-  }
-  .what-textbox {
-    width: 100%;
-    margin-left: 0px;
-  }
-  .skills-inner {
-    background-color: #333;
-    padding-top: 70px;
-    padding-bottom: 0px;
-    text-align: center;
-  }
-  .skills-inner-figure {
-    display: block;
-    margin-left: 0px;
-    margin-bottom: 88px;
-  }
-  .skills-inner-figure:first-of-type {
-    margin-left: 0px;
-  }
   .email-wrapper {
-    margin-top: 90px;
     display: block;
   }
   .email-text {
     width: 100%;
     text-align: center;
-    line-height: 1.5;
-    font-weight: 100;
     margin-bottom: 40px;
   }
   .email-botton {
@@ -319,12 +298,50 @@ footer {
   .email-me {
     text-align: center;
   }
+  .skills-inner {
+    padding-bottom: 0px;
+  }
+  .skills-inner-figure {
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .contact {
+    display: none;
+  }
+  .drawer-open {
+    display: flex;
+    height: 30px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .drawer-open span, .drawer-open span:before, .drawer-open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #ddd;
+    position: absolute;
+  }
+  .drawer-open span:before {
+    bottom: 8px;
+  }
+  .drawer-open span:after {
+    top: 8px;
+  }
   .wrapper {
     width: 100%;
-    margin: 0 auto;
     box-sizing: border-box;
     padding: 15px;
   }
@@ -334,17 +351,11 @@ footer {
   }
   .bolt {
     font-size: 80px;
-    font-weight: 700;
-    text-align: center;
-    color: #74cfae;
     margin-bottom: 20px;
   }
   .what-inner {
-    background-color: #74cfae;
-    padding-top: 50px;
     padding-bottom: 25px;
     width: 100%;
-    text-align: center;
   }
   .what-inner-wrapper {
     display: block;
@@ -357,14 +368,10 @@ footer {
     margin-left: 0px;
   }
   .work-inner-img {
-    margin-top: 40px;
     display: block;
     text-align: center;
   }
   .work-inner-img-anchor {
-    border-width: 0px;
-    border-style: none;
-    background: transparent;
     margin-top: 0px;
     margin-left: 0px;
     display: block;
@@ -372,31 +379,11 @@ footer {
   .work-inner-img-anchor:nth-child(3) {
     margin-bottom: 80px;
   }
-  .skills-inner {
-    background-color: #333;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    display: flex;
-    text-align: center;
-  }
-  .skills-inner-figure {
-    text-align: center;
-    display: block;
-    margin-left: 0px;
-    margin-bottom: 88px;
-  }
-  .skills-inner-figure:last-child {
-    margin-bottom: 0px;
-  }
   .email-wrapper {
-    margin-top: 90px;
     display: block;
   }
   .email-text {
     width: 100%;
-    text-align: center;
-    line-height: 1.5;
-    font-weight: 100;
     margin-bottom: 40px;
   }
   .email-botton {
@@ -405,8 +392,15 @@ footer {
   .email-me {
     text-align: center;
   }
+  .skills-inner-figure {
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 88px;
+  }
+  .skills-inner-figure:last-child {
+    margin-bottom: 0px;
+  }
   .bg-nav {
-    background: #f2f2f2;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -421,7 +415,6 @@ footer {
     height: 90px;
     transition: 0.3s;
   }
-  footer {
-    padding-right: 15px;
-  }
+}
+
 }
