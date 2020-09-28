@@ -132,12 +132,12 @@ main {
   margin-left: 100px;
 }
 
-.work-inner-img-anchor img {
+.work-inner-img-anchor {
   transition: 0.3s;
   opacity: 0.7;
 }
 
-.work-inner-img-anchor img:hover {
+.work-inner-img-anchor :hover {
   opacity: 1;
 }
 
