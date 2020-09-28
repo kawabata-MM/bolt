@@ -269,23 +269,21 @@ footer {
     display: block;
     text-align: center;
   }
-  .what-img {
-    margin-bottom: 20px;
-  }
   .what-inner-wrapper {
     display: block;
   }
   .what-textbox {
     width: 100%;
     margin-left: 0px;
+    margin-top: 20px;
   }
   .work-inner-img-anchor {
     margin-top: 0px;
     margin-left: 0px;
     display: block;
   }
-  .work-inner-img-anchor:nth-child(3n) {
-    margin-bottom: 80px;
+  .work-inner-img-anchor:nth-child(4n) {
+    margin-top: 80px;
   }
   .email-wrapper {
     display: block;
@@ -293,10 +291,10 @@ footer {
   .email-text {
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
   }
   .email-botton {
     display: inline-block;
+    margin-top: 40px;
   }
   .email-me {
     text-align: center;
@@ -307,11 +305,11 @@ footer {
   }
   .skills-inner-figure {
     display: block;
-    margin-bottom: 88px;
+    margin-top: 88px;
     margin-left: 0px;
   }
-  .skills-inner-figure:last-child {
-    margin-bottom: 0px;
+  .skills-inner-figure:first-child {
+    margin-top: 0px;
   }
 }
 
@@ -367,12 +365,13 @@ footer {
   .what-inner-wrapper {
     display: block;
   }
-  .what-img {
-    margin-bottom: 20px;
+  .free-bootstrap {
+    margin-top: 20px;
   }
   .what-textbox {
     width: 100%;
     margin-left: 0px;
+    margin-top: 20px;
   }
   .work-inner-img {
     display: block;
@@ -390,18 +389,18 @@ footer {
     margin-left: 0px;
     display: block;
   }
-  .work-inner-img-anchor:nth-child(3n) {
-    margin-bottom: 80px;
+  .work-inner-img-anchor:nth-child(4n) {
+    margin-top: 80px;
   }
   .email-wrapper {
     display: block;
   }
   .email-text {
     width: 100%;
-    margin-bottom: 40px;
   }
   .email-botton {
     display: inline-block;
+    margin-top: 40px;
   }
   .email-me {
     text-align: center;
@@ -412,11 +411,11 @@ footer {
   }
   .skills-inner-figure {
     display: block;
-    margin-bottom: 88px;
+    margin-top: 88px;
     margin-left: 0px;
   }
-  .skills-inner-figure:last-child {
-    margin-bottom: 0px;
+  .skills-inner-figure:first-child {
+    margin-top: 0px;
   }
   .bg-nav {
     padding-top: 50px;
