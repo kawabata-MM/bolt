@@ -137,7 +137,7 @@ main {
   opacity: 0.7;
 }
 
-.work-inner-img-anchor :hover {
+.work-inner-img-anchor:hover {
   opacity: 1;
 }
 
@@ -261,6 +261,7 @@ footer {
   .work-inner-img {
     display: inline-block;
   }
+
   .work-inner-img-anchor {
     display: flex;
     margin-top: 0px;
